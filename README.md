@@ -419,6 +419,7 @@ Release page:
 
 ```text
 https://github.com/leekh0314/INV-MCU_Lab/releases
+```
 
 ---
 
