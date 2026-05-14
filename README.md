@@ -411,7 +411,6 @@ INV-MCU_Lab/
 
 ## 12. Release Downloads / 发布附件下载
 
-```
 Large files, tool packages and release assets are available from GitHub Releases.
 
 大文件、工具包和发布附件请从 GitHub Releases 页面下载。
