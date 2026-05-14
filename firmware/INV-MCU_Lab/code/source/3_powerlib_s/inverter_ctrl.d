@@ -1,0 +1,9 @@
+..\code\source\3_powerlib_s\inverter_ctrl.o: ..\code\source\3_powerlib_s\Inverter_Ctrl.c
+..\code\source\3_powerlib_s\inverter_ctrl.o: ..\code\head\2_user_h\sys_define_config.h
+..\code\source\3_powerlib_s\inverter_ctrl.o: ..\code\head\3_powerlib_h\Inverter_Ctrl.h
+..\code\source\3_powerlib_s\inverter_ctrl.o: ..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h
+..\code\source\3_powerlib_s\inverter_ctrl.o: ..\code\head\3_powerlib_h\PID.h
+..\code\source\3_powerlib_s\inverter_ctrl.o: C:\Keil_v5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\code\source\3_powerlib_s\inverter_ctrl.o: ..\code\head\3_powerlib_h\PQ_Calc.h
+..\code\source\3_powerlib_s\inverter_ctrl.o: ..\code\head\3_powerlib_h\Repeat_Ctrl.h
+..\code\source\3_powerlib_s\inverter_ctrl.o: ..\code\head\3_powerlib_h\INV_Power_Ctrl.h

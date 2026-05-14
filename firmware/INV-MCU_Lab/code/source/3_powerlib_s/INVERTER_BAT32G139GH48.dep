@@ -1,0 +1,918 @@
+Dependencies for Project 'INVERTER', Target 'BAT32G139GH48': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\code\source\1_driver_s\adc.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\adc.o --omf_browse ..\code\source\3_powerlib_s\adc.crf --depend ..\code\source\3_powerlib_s\adc.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\adc_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\adc_user.o --omf_browse ..\code\source\3_powerlib_s\adc_user.crf --depend ..\code\source\3_powerlib_s\adc_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\clk.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\clk.o --omf_browse ..\code\source\3_powerlib_s\clk.crf --depend ..\code\source\3_powerlib_s\clk.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\cmp.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\cmp.o --omf_browse ..\code\source\3_powerlib_s\cmp.crf --depend ..\code\source\3_powerlib_s\cmp.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\cmp_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\cmp_user.o --omf_browse ..\code\source\3_powerlib_s\cmp_user.crf --depend ..\code\source\3_powerlib_s\cmp_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\dac.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\dac.o --omf_browse ..\code\source\3_powerlib_s\dac.crf --depend ..\code\source\3_powerlib_s\dac.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\dac.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\div.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\div.o --omf_browse ..\code\source\3_powerlib_s\div.crf --depend ..\code\source\3_powerlib_s\div.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\dma.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\dma.o --omf_browse ..\code\source\3_powerlib_s\dma.crf --depend ..\code\source\3_powerlib_s\dma.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\dma.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\elc.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\elc.o --omf_browse ..\code\source\3_powerlib_s\elc.crf --depend ..\code\source\3_powerlib_s\elc.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\elc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\flash.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\flash.o --omf_browse ..\code\source\3_powerlib_s\flash.crf --depend ..\code\source\3_powerlib_s\flash.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\flash.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\flash_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\flash_user.o --omf_browse ..\code\source\3_powerlib_s\flash_user.crf --depend ..\code\source\3_powerlib_s\flash_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\flash.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+F (..\code\source\1_driver_s\gpio.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\gpio.o --omf_browse ..\code\source\3_powerlib_s\gpio.crf --depend ..\code\source\3_powerlib_s\gpio.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\intp.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\intp.o --omf_browse ..\code\source\3_powerlib_s\intp.crf --depend ..\code\source\3_powerlib_s\intp.d)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\intp.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\intp_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\intp_user.o --omf_browse ..\code\source\3_powerlib_s\intp_user.crf --depend ..\code\source\3_powerlib_s\intp_user.d)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\intp.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\key.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\key.o --omf_browse ..\code\source\3_powerlib_s\key.crf --depend ..\code\source\3_powerlib_s\key.d)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\key.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\key_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\key_user.o --omf_browse ..\code\source\3_powerlib_s\key_user.crf --depend ..\code\source\3_powerlib_s\key_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\key.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\lin.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\lin.o --omf_browse ..\code\source\3_powerlib_s\lin.crf --depend ..\code\source\3_powerlib_s\lin.d)
+I (..\code\head\1_driver_h\lin.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\intp.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\pcbz.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\pcbz.o --omf_browse ..\code\source\3_powerlib_s\pcbz.crf --depend ..\code\source\3_powerlib_s\pcbz.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pcbz.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\pga.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\pga.o --omf_browse ..\code\source\3_powerlib_s\pga.crf --depend ..\code\source\3_powerlib_s\pga.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\retarget.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\retarget.o --omf_browse ..\code\source\3_powerlib_s\retarget.crf --depend ..\code\source\3_powerlib_s\retarget.d)
+F (..\code\source\1_driver_s\rst.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\rst.o --omf_browse ..\code\source\3_powerlib_s\rst.crf --depend ..\code\source\3_powerlib_s\rst.d)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\rst.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\rtc.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\rtc.o --omf_browse ..\code\source\3_powerlib_s\rtc.crf --depend ..\code\source\3_powerlib_s\rtc.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\rtc_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\rtc_user.o --omf_browse ..\code\source\3_powerlib_s\rtc_user.crf --depend ..\code\source\3_powerlib_s\rtc_user.d)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\sci.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\sci.o --omf_browse ..\code\source\3_powerlib_s\sci.crf --depend ..\code\source\3_powerlib_s\sci.d)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\dma.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\sci_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\sci_user.o --omf_browse ..\code\source\3_powerlib_s\sci_user.crf --depend ..\code\source\3_powerlib_s\sci_user.d)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\tim4.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\tim4.o --omf_browse ..\code\source\3_powerlib_s\tim4.crf --depend ..\code\source\3_powerlib_s\tim4.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\tim4_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\tim4_user.o --omf_browse ..\code\source\3_powerlib_s\tim4_user.crf --depend ..\code\source\3_powerlib_s\tim4_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\tima.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\tima.o --omf_browse ..\code\source\3_powerlib_s\tima.crf --depend ..\code\source\3_powerlib_s\tima.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tima.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\tima_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\tima_user.o --omf_browse ..\code\source\3_powerlib_s\tima_user.crf --depend ..\code\source\3_powerlib_s\tima_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\tima.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\timb.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\timb.o --omf_browse ..\code\source\3_powerlib_s\timb.crf --depend ..\code\source\3_powerlib_s\timb.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\timb_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\timb_user.o --omf_browse ..\code\source\3_powerlib_s\timb_user.crf --depend ..\code\source\3_powerlib_s\timb_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\timc.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\timc.o --omf_browse ..\code\source\3_powerlib_s\timc.crf --depend ..\code\source\3_powerlib_s\timc.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timc.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\timc_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\timc_user.o --omf_browse ..\code\source\3_powerlib_s\timc_user.crf --depend ..\code\source\3_powerlib_s\timc_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\timc.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\timm.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\timm.o --omf_browse ..\code\source\3_powerlib_s\timm.crf --depend ..\code\source\3_powerlib_s\timm.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+F (..\code\source\1_driver_s\timm_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\timm_user.o --omf_browse ..\code\source\3_powerlib_s\timm_user.crf --depend ..\code\source\3_powerlib_s\timm_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+F (..\code\source\1_driver_s\wdt.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\wdt.o --omf_browse ..\code\source\3_powerlib_s\wdt.crf --depend ..\code\source\3_powerlib_s\wdt.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+F (..\code\source\1_driver_s\wdt_user.c)(0x68C4B9DC)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\wdt_user.o --omf_browse ..\code\source\3_powerlib_s\wdt_user.crf --depend ..\code\source\3_powerlib_s\wdt_user.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+F (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\dac.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\div.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\dma.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\elc.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\flash.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\intp.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\key.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\lin.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\pcbz.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\rst.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\tima.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\timc.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\timm.h)(0x68FC76BB)()
+F (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)()
+F (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)()
+F (..\code\source\2_user_s\main.c)(0x690024B7)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\main.o --omf_browse ..\code\source\3_powerlib_s\main.crf --depend ..\code\source\3_powerlib_s\main.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\user_function.h)(0x690024B8)
+F (..\code\source\2_user_s\interrupt.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\interrupt.o --omf_browse ..\code\source\3_powerlib_s\interrupt.crf --depend ..\code\source\3_powerlib_s\interrupt.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\user_function.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_parar.h)(0x690024B8)
+F (..\code\source\2_user_s\sys_variable_init.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\sys_variable_init.o --omf_browse ..\code\source\3_powerlib_s\sys_variable_init.crf --depend ..\code\source\3_powerlib_s\sys_variable_init.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_parar.h)(0x690024B8)
+F (..\code\source\2_user_s\sys_define_struct.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\sys_define_struct.o --omf_browse ..\code\source\3_powerlib_s\sys_define_struct.crf --depend ..\code\source\3_powerlib_s\sys_define_struct.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_parar.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+F (..\code\source\2_user_s\sys_hardware_init.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\sys_hardware_init.o --omf_browse ..\code\source\3_powerlib_s\sys_hardware_init.crf --depend ..\code\source\3_powerlib_s\sys_hardware_init.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+F (..\code\source\2_user_s\sys_state_machine.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\sys_state_machine.o --omf_browse ..\code\source\3_powerlib_s\sys_state_machine.crf --depend ..\code\source\3_powerlib_s\sys_state_machine.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\user_function.h)(0x690024B8)
+F (..\code\source\2_user_s\user_parallel.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\user_parallel.o --omf_browse ..\code\source\3_powerlib_s\user_parallel.crf --depend ..\code\source\3_powerlib_s\user_parallel.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+F (..\code\source\2_user_s\user_sample.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\user_sample.o --omf_browse ..\code\source\3_powerlib_s\user_sample.crf --depend ..\code\source\3_powerlib_s\user_sample.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_parar.h)(0x690024B8)
+F (..\code\source\2_user_s\user_function.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\user_function.o --omf_browse ..\code\source\3_powerlib_s\user_function.crf --depend ..\code\source\3_powerlib_s\user_function.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\string.h)(0x5F63878A)
+F (..\code\source\2_user_s\user_stepmotor.c)(0x69002734)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\user_stepmotor.o --omf_browse ..\code\source\3_powerlib_s\user_stepmotor.crf --depend ..\code\source\3_powerlib_s\user_stepmotor.d)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\2_user_h\user_function.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+F (..\code\source\2_user_s\user_sine_table.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\user_sine_table.o --omf_browse ..\code\source\3_powerlib_s\user_sine_table.crf --depend ..\code\source\3_powerlib_s\user_sine_table.d)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\2_user_h\sys_define_parar.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+F (..\code\source\2_user_s\user_fault_check.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\user_fault_check.o --omf_browse ..\code\source\3_powerlib_s\user_fault_check.crf --depend ..\code\source\3_powerlib_s\user_fault_check.d)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_parar.h)(0x690024B8)
+F (..\code\source\2_user_s\uart_printf.c)(0x690024B8)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\uart_printf.o --omf_browse ..\code\source\3_powerlib_s\uart_printf.crf --depend ..\code\source\3_powerlib_s\uart_printf.d)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\1_driver_h\userdefine.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\sci.h)(0x68C4B9DB)
+I (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (..\code\head\1_driver_h\adc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\cmp.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\gpio.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\pga.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\tim4.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timm.h)(0x68FC76BB)
+I (..\code\head\1_driver_h\div.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\wdt.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\clk.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\rtc.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\DMA.h)(0x68C4B9DB)
+I (..\code\head\1_driver_h\timb.h)(0x68C4B9DB)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\2_user_h\user_sample.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)
+I (..\code\head\2_user_h\user_parallel.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+F (..\code\head\2_user_h\sys_mcu_header.h)(0x690024B8)()
+F (..\code\head\2_user_h\sys_define_parar.h)(0x690024B8)()
+F (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)()
+F (..\code\head\2_user_h\sys_hardware_init.h)(0x690024B8)()
+F (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)()
+F (..\code\head\2_user_h\sys_state_machine.h)(0x690024B8)()
+F (..\code\head\2_user_h\user_parallel.h)(0x690024B8)()
+F (..\code\head\2_user_h\user_sample.h)(0x690024B8)()
+F (..\code\head\2_user_h\user_function.h)(0x690024B8)()
+F (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)()
+F (..\code\source\3_powerlib_s\stepmotor_ctrl.c)(0x690039C3)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\stepmotor_ctrl.o --omf_browse ..\code\source\3_powerlib_s\stepmotor_ctrl.crf --depend ..\code\source\3_powerlib_s\stepmotor_ctrl.d)
+I (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PID.h)(0x690024B8)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)
+I (..\code\head\2_user_h\sys_define_config.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)
+I (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)
+I (..\code\head\2_user_h\user_stepmotor.h)(0x690024B8)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+I (..\code\head\2_user_h\sys_define_struct.h)(0x690024B8)
+F (..\code\source\3_powerlib_s\INV_Ctrl.lib)(0x69003939)()
+F (..\code\head\3_powerlib_h\LPF.h)(0x690024B8)()
+F (..\code\head\3_powerlib_h\PID.h)(0x690024B8)()
+F (..\code\head\3_powerlib_h\PQ_Calc.h)(0x690024B8)()
+F (..\code\head\3_powerlib_h\InvVol_AM.h)(0x690024B8)()
+F (..\code\head\3_powerlib_h\Inverter_Ctrl.h)(0x690024B8)()
+F (..\code\head\3_powerlib_h\Repeat_Ctrl.h)(0x690024B8)()
+F (..\code\head\3_powerlib_h\stepmotor_ctrl.h)(0x690029E5)()
+F (..\code\head\3_powerlib_h\Lookup_Table.h)(0x690024B8)()
+F (..\code\head\3_powerlib_h\PQ_Droop_Ctrl.h)(0x690024B8)()
+F (..\code\head\3_powerlib_h\INV_Power_Ctrl.h)(0x690024AB)()
+F (..\code\head\3_powerlib_h\AlgorithmLevel_Headers.h)(0x690024B8)()
+F (..\readme.txt)(0x69002D00)()
+F (RTE\Device\BAT32G139GK48FA\startup_BAT32G139.s)(0x68C4B9DD)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include--pd "__UVISION_VERSION SETA 532" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_bat32g139.lst --xref -o ..\code\source\3_powerlib_s\startup_bat32g139.o --depend ..\code\source\3_powerlib_s\startup_bat32g139.d)
+F (RTE\Device\BAT32G139GK48FA\system_BAT32G139.c)(0x68C4B9DD)(--c99 --gnu -c --cpu Cortex-M0+ -g -O1 --apcs=interwork --split_sections -I ..\code\head\3_powerlib_h -I ..\code\head\1_driver_h -I ..\code\head\2_user_h -I ..\code\source\2_user_s -I ..\code\source\3_powerlib_s-I.\RTE\Device\BAT32G139GK48FA-I.\RTE\_BAT32G139GH48-IC:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -D_RTE_-o ..\code\source\3_powerlib_s\system_bat32g139.o --omf_browse ..\code\source\3_powerlib_s\system_bat32g139.crf --depend ..\code\source\3_powerlib_s\system_bat32g139.d)
+I (C:\Keil_v5_MDK\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h)(0x6717510A)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h)(0x6717510A)
+F (RTE\Device\BAT32G139GK48FA\userdefine.h)(0x68C4B9DD)()

@@ -1,0 +1,10 @@
+..\code\source\3_powerlib_s\user_sine_table.o: ..\code\source\2_user_s\user_sine_table.c
+..\code\source\3_powerlib_s\user_sine_table.o: C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h
+..\code\source\3_powerlib_s\user_sine_table.o: C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h
+..\code\source\3_powerlib_s\user_sine_table.o: C:\Keil_v5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\code\source\3_powerlib_s\user_sine_table.o: C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+..\code\source\3_powerlib_s\user_sine_table.o: C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+..\code\source\3_powerlib_s\user_sine_table.o: C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+..\code\source\3_powerlib_s\user_sine_table.o: C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h
+..\code\source\3_powerlib_s\user_sine_table.o: ..\code\head\2_user_h\sys_define_parar.h
+..\code\source\3_powerlib_s\user_sine_table.o: ..\code\head\2_user_h\sys_define_config.h

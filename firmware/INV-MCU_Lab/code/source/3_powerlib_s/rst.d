@@ -1,0 +1,10 @@
+..\code\source\3_powerlib_s\rst.o: ..\code\source\1_driver_s\rst.c
+..\code\source\3_powerlib_s\rst.o: C:\Keil_v5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\code\source\3_powerlib_s\rst.o: C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\BAT32G139.h
+..\code\source\3_powerlib_s\rst.o: C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h
+..\code\source\3_powerlib_s\rst.o: C:\Keil_v5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\code\source\3_powerlib_s\rst.o: C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+..\code\source\3_powerlib_s\rst.o: C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+..\code\source\3_powerlib_s\rst.o: C:\Users\CQJY\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+..\code\source\3_powerlib_s\rst.o: C:\Users\CQJY\AppData\Local\Arm\Packs\Cmsemicon\BAT32G139\1.0.4\Device\Include\system_BAT32G139.h
+..\code\source\3_powerlib_s\rst.o: ..\code\head\1_driver_h\rst.h
