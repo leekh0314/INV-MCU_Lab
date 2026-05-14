@@ -409,26 +409,17 @@ INV-MCU_Lab/
 
 ---
 
-## 12. Large File Policy / 大文件处理原则
+## 12. Release Downloads / 发布附件下载
 
-为了保持 Git 仓库轻量，以下内容不建议直接提交到主仓库：
+```
+Large files, tool packages and release assets are available from GitHub Releases.
 
-- 大型 PDF；
-- RAR / ZIP / 7z 压缩包；
-- 软件安装包；
-- 编译生成文件；
-- Keil / IAR / 其他 IDE 的中间文件；
-- 商业软件工具；
-- 第三方软件安装包；
-- 未授权的数据手册或资料包。
+大文件、工具包和发布附件请从 GitHub Releases 页面下载。
 
-建议处理方式：
+Release page:
 
-- 源码、小文档、原理图、BOM、Gerber 放入 Git 仓库；
-- 大 PDF、测试报告、完整资料包放到 GitHub Releases；
-- 第三方软件和芯片资料尽量提供官方链接，不直接再分发；
-- 仓库中尽量避免提交超过 50MB 的单个文件；
-- 不建议把 RAR/ZIP 当作长期版本管理内容直接提交到 Git。
+```text
+https://github.com/leekh0314/INV-MCU_Lab/releases
 
 ---
 
