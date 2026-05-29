@@ -172,63 +172,63 @@ void User_LED_Deal(void)
 }
 
 
-/**
- * @brief  计算CRC16校验码（Modbus标准，多项式 0xA001）,用于VisualScope上位机校验代码。
- *
- * 本函数用于对输入的字节数组进行CRC16校验，结果存入Rcvbuf中。
- * 算法采用常用的CRC16(Modbus)标准：初始值0xFFFF，多项式0xA001。
- * 注意：输出的低字节在前，高字节在后。
- *
- * @param Array   输入数据数组（待校验的数据）,存放需要发送的4个通道数据
- * @param Rcvbuf  存放CRC校验码，长度为2字节
- *                 - Rcvbuf[0]：CRC高字节
- *                 - Rcvbuf[1]：CRC低字节
- * @param Len     输入数据的长度（字节数）固定8
- *
- * @note  如果需要符合Modbus RTU发送顺序，应交换Rcvbuf[0]与Rcvbuf[1]。
- * @note  示例：CRC16(Array,Rcvbuf,8)
- */
-void CRC16(unsigned char *Array, unsigned char *Rcvbuf, unsigned int Len)
-{
-    unsigned int IX, IY, CRC_Value;
-    CRC_Value = 0xFFFF; // 初始值，全1
+///**
+// * @brief  计算CRC16校验码（Modbus标准，多项式 0xA001）,用于VisualScope上位机校验代码。
+// *
+// * 本函数用于对输入的字节数组进行CRC16校验，结果存入Rcvbuf中。
+// * 算法采用常用的CRC16(Modbus)标准：初始值0xFFFF，多项式0xA001。
+// * 注意：输出的低字节在前，高字节在后。
+// *
+// * @param Array   输入数据数组（待校验的数据）,存放需要发送的4个通道数据
+// * @param Rcvbuf  存放CRC校验码，长度为2字节
+// *                 - Rcvbuf[0]：CRC高字节
+// *                 - Rcvbuf[1]：CRC低字节
+// * @param Len     输入数据的长度（字节数）固定8
+// *
+// * @note  如果需要符合Modbus RTU发送顺序，应交换Rcvbuf[0]与Rcvbuf[1]。
+// * @note  示例：CRC16(Array,Rcvbuf,8)
+// */
+//void CRC16(unsigned char *Array, unsigned char *Rcvbuf, unsigned int Len)
+//{
+//    unsigned int IX, IY, CRC_Value;
+//    CRC_Value = 0xFFFF; // 初始值，全1
 
-    if (Len <= 0)
-    {
-        CRC_Value = 0;  // 长度非法时返回0
-    }        
-    else
-    {
-        Len--;  // 因为下方循环使用 <=，所以这里先减1，避免越界
+//    if (Len <= 0)
+//    {
+//        CRC_Value = 0;  // 长度非法时返回0
+//    }        
+//    else
+//    {
+//        Len--;  // 因为下方循环使用 <=，所以这里先减1，避免越界
 
-        // 遍历每个字节
-        for (IX = 0; IX <= Len; IX++)
-        {
-            // 将当前字节与CRC寄存器低8位异或
-            CRC_Value = CRC_Value ^ (unsigned int)(Array[IX]);
-            
-            // 遍历该字节中的8位
-            for (IY = 0; IY <= 7; IY++)
-            {
-                // 如果最低位为1，则右移并与多项式0xA001异或
-                if ((CRC_Value & 1) != 0)
-                {
-                    CRC_Value = (CRC_Value >> 1) ^ 0xA001;// 多项式 0xA001
-                }
-                // 否则仅右移
-                else
-                {
-                    CRC_Value = CRC_Value >> 1;
-                }
-            }
-        }
-    }
+//        // 遍历每个字节
+//        for (IX = 0; IX <= Len; IX++)
+//        {
+//            // 将当前字节与CRC寄存器低8位异或
+//            CRC_Value = CRC_Value ^ (unsigned int)(Array[IX]);
+//            
+//            // 遍历该字节中的8位
+//            for (IY = 0; IY <= 7; IY++)
+//            {
+//                // 如果最低位为1，则右移并与多项式0xA001异或
+//                if ((CRC_Value & 1) != 0)
+//                {
+//                    CRC_Value = (CRC_Value >> 1) ^ 0xA001;// 多项式 0xA001
+//                }
+//                // 否则仅右移
+//                else
+//                {
+//                    CRC_Value = CRC_Value >> 1;
+//                }
+//            }
+//        }
+//    }
 
-    // 将最终结果拆分为低字节在前
-    Rcvbuf[0] = (CRC_Value & 0x00ff);       // 低字节
-    Rcvbuf[1] = (CRC_Value & 0xff00) >> 8;  // 高字节
+//    // 将最终结果拆分为低字节在前
+//    Rcvbuf[0] = (CRC_Value & 0x00ff);       // 低字节
+//    Rcvbuf[1] = (CRC_Value & 0xff00) >> 8;  // 高字节
 
-}
+//}
 /*************************************************
 Description: Function_TxSendDebug
 Input      : 
@@ -289,7 +289,7 @@ void Function_TxSendDebug(int32_t data1,int32_t data2,int32_t data3,int32_t data
 //    SCI0->TXD1 = txBuf[0]; 	  // 先写第1个字节触发UART发送，DMA随后接管
 //}
 
-/* ---------------- uart1 + DMA数据发送函数-(vofa+ 上位机)-1M波特率 ----------------*/
+/* ---------------- uart1 + DMA数据发送函数-(vofa+ 上位机)-1M波特率-20250905 ----------------*/
 uint8_t txBuf[20] = {0};
 float num[4] = {0};
 void Function_TxSendDebug(int32_t data1,int32_t data2,int32_t data3,int32_t data4)
@@ -314,7 +314,7 @@ void Function_TxSendDebug(int32_t data1,int32_t data2,int32_t data3,int32_t data
 }
 
 
-///* ---------------- uart1数据发送函数-CRC16(VisualScope)-传统逐字节发送-9600波特率 ----------------*/
+///* ---------------- uart1数据发送函数-CRC16(VisualScope)-传统逐字节发送-9600波特率- 20250828 ----------------*/
 //void Function_TxSendDebug(int32_t data1,int32_t data2,int32_t data3,int32_t data4) {
 //	static uint8_t u8_senddataindexdebug = 0;
 //	uint8_t CRCbuf[2] = {0};
@@ -337,7 +337,7 @@ void Function_TxSendDebug(int32_t data1,int32_t data2,int32_t data3,int32_t data
 //	u8_senddataarraydebug[8]  = CRCbuf[0]; 
 //	u8_senddataarraydebug[9]  = CRCbuf[1]; 
 
-//	/*----方法1---- 逐字节发送-阻塞 9600波特率-------*/ 
+//	/*----方法1---- 逐字节发送-阻塞 9600波特率-------20250904*/ 
 ////	for (int i = 0; i < sizeof(u8_senddataarraydebug); i++) {
 ////		
 ////		SCI0->TXD1 = u8_senddataarraydebug[i];
@@ -347,14 +347,14 @@ void Function_TxSendDebug(int32_t data1,int32_t data2,int32_t data3,int32_t data
 ////	}
 //  
 //	/*----方法2---- 非阻塞 -需1M 波特率-------20250904*/ 
-//	SCI0->TXD1 = u8_senddataarraydebug[u8_senddataindexdebug]; //非阻塞, 必须设置1M 波特率 
+//	SCI0->TXD1 = u8_senddataarraydebug[u8_senddataindexdebug]; // 20250904 非阻塞, 必须设置1M 波特率 
 //	// 发送索引递增
 //	if (++u8_senddataindexdebug >= sizeof(u8_senddataarraydebug)) {
 //		u8_senddataindexdebug = 0; // 发完一帧，回到开头
 //	}
 //}
 
-///* ---------------- uart1 + DMA数据发送函数-CRC16(VisualScope_Crack 上位机)-9600波特率-----test_cnt>=200------------*/
+///* ---------------- uart1 + DMA数据发送函数-CRC16(VisualScope_Crack 上位机)-9600波特率- 20250906/0922----test_cnt>=200------------*/
 //uint8_t txBuf[10] = {0};
 //void Function_TxSendDebug(int32_t data1,int32_t data2,int32_t data3,int32_t data4) {
 //	uint8_t CRCbuf[2] = {0};
@@ -385,104 +385,6 @@ void Function_TxSendDebug(int32_t data1,int32_t data2,int32_t data3,int32_t data
 
 
 
-// 20250825 系统保护位名字数组（和位定义顺序对应，bit0 → bit15） 
-const char *ProtectFlagNames[16] = {
-    "VBUS_OVP",         // bit0 母线过压
-    "VBUS_OLP",         // bit1 母线过流/过载保护
-    "INDUC_OCP",        // bit2 电感过流保护
-    "OLP",              // bit3 过载保护
-    "ACOUT_OVP",        // bit4 交流输出过压保护
-    "ACOUT_OLP",        // bit5 交流输出欠压保护
-    "ACOUT_SCP",        // bit6 交流输出短路保护
-    "ACOUT_DCIM",       // bit7 直流偏置保护
-    "OTP",              // bit8 过温保护
-    "RPM_OVER",         // bit9 转速过高
-    "AUX_POWER_OVP",    // bit10 辅助电源过压
-    "AUX_POWER_OLP",    // bit11 辅助电源过流/过载
-    "System_Init_Fail", // bit12 系统初始化失败
-    "RPM_LOW",          // bit13 转速过低
-    "Vref_Error",       // bit14 基准电压异常
-    "rsvd"              // bit15 保留
-};
-
-void Print_SystemProtectFlags(void)
-{
-    printf("系统保护标志 (bit[15..0]): \n");
-    for(int i = 15; i >= 0; i--) {
-        printf("位%-2d (%-16s): %d\n",
-               i,
-               ProtectFlagNames[i],
-               (System_ProtectFlag_Info.all >> i) & 1);
-    }
-		
-//System_Protect_Flag_u flag;
-//flag.all = 0x0001;   // 只置最低位
-//printf("VBUS_OVP = %d\n", flag.bit.VBUS_OVP); // VBUS_OVP = 1 说明环境里位域是从低位开始排
-//printf("rsvd    = %d\n", flag.bit.rsvd);
-
-}
-const char *StartCheckFlagNames[16] = {
-    "vBus_Up_OK",       // bit0 母线电压上升正常
-    "vBus_Dn_OK",       // bit1 母线电压下降正常
-    "RPM_Up_OK",        // bit2 转速上升正常
-    "auxPower_Up_OK",   // bit3 辅助电源上升正常
-    "auxPower_Dn_OK",   // bit4 辅助电源下降正常
-    "temp_Up_OK",       // bit5 温度检测正常
-    "rsvd6",            // bit6 保留
-    "rsvd7",            // bit7
-    "rsvd8",            // bit8
-    "rsvd9",            // bit9
-    "rsvd10",           // bit10
-    "rsvd11",           // bit11
-    "rsvd12",           // bit12
-    "rsvd13",           // bit13
-    "rsvd14",           // bit14
-    "rsvd15"            // bit15
-};
-// 系统启动检测
-void Print_StartCheckFlags(void)
-{
-    printf("系统启动检查标志 (bit[15..0]): \n");
-    for(int i = 15; i >= 0; i--) {
-        printf("位%-2d (%-16s): %d\n",
-               i,
-               StartCheckFlagNames[i],
-               (StartCheck_Flag_Info.all >> i) & 1);
-    }
-}
-
-//// 四个测试变量
-//static int32_t var1 = 0;      // 递增
-//static int32_t var2 = 1000;   // 递减
-//static int32_t var3 = 0;      // 正弦变化
-//static int32_t var4 = 0;      // 锯齿波
-
-//void User_UART_View(void)
-//{
-//    // 1. 递增变量
-//    var1 += 10;
-//    if(var1 > 1000) var1 = 0;
-
-//    // 2. 递减变量
-//    var2 -= 20;
-//    if(var2 < 0) var2 = 1000;
-
-//    // 3. 正弦波模拟（近似）
-//    static float angle = 0.0f;
-//    var3 = (int32_t)(5000.0f * sinf(angle));// var3 sin
-//	  var4 = (int32_t)(5000.0f * sinf(angle));// var4 sin
-//    angle += 0.1f;
-//    if(angle > 6.28f) angle = 0.0f; // 2π
-
-////    // 4. 锯齿波 
-//	  
-////    var4 += 50;
-////    if(var4 > 1000) var4 = -1000;
-
-//    // 发送数据到 Vofa+
-//    Function_TxSendDebug(var1, var2, var3, var4);
-//}
-
 /*************************************************
 Description: User_UART_View
 Input      : 
@@ -499,80 +401,25 @@ extern int32_t s32_GeneratorcapvalCaltemp ,AM_COUNT ;
 
 void User_UART_View(void)
 {					
-    /*------------------------------------------------------------------------------------*/			
-    /*---------------------UART0串口调试--------------------------------------------------*/				
-    //Function_TxSendDebug( PID_Vol_Loop.Ref, PID_Vol_Loop.Fdb,PID_Vol_Loop.Out,PID_Vol_Loop.Ui>> 15 );//    
-    //Function_TxSendDebug( 0, System_Power_Info.Active_Power_Total, ADSample_Info.AC_Vol_RMS,ADSample_Info.Inv_Cur_RMS );//
-    //Function_TxSendDebug( System_ProtectFlag_Info.all ,StartCheck_Flag_Info.all,State_Context.State_Identifier*1000,ADSample_Info.Bus_Vol_AD);//
-    //Function_TxSendDebug( PID_Vol_Loop.Ref, PID_Vol_Loop.Fdb,PID_Curr_Loop.Ref,PID_Curr_Loop.Fdb);//
-    
-//    Function_TxSendDebug( Inv_SineCtrl_Info.InvVol_AM_Target, ADSample_Info.Bus_Vol_AD,System_Power_Info.Active_Power_Total,PID_Curr_Loop.Fdb);//
-////    Function_TxSendDebug( PID_Vol_Loop.Ref, PID_Vol_Loop.Fdb,PID_Curr_Loop.Ref,PID_Curr_Loop.Fdb);//
-//    Function_TxSendDebug( System_ProtectFlag_Info.all ,StartCheck_Flag_Info.all,State_Context.State_Identifier*1000+INV_SCR_STATUS,ADSample_Info.Bus_Vol_AD);//
-//      Function_TxSendDebug( AD_Correct_V_ACOUT.ADRef_Correct_Value, AD_Correct_I_Induc.ADRef_Correct_Value,PID_Curr_Loop.Ref,PID_Curr_Loop.Fdb);//
-
-//    Function_TxSendDebug( ADSample_Info.AC_Vol_RMS ,ADSample_Info.Inv_Cur_RMS,System_Power_Info.Active_Power_Total,System_Power_Info.Apparent_Power_Total);//
-//    Function_TxSendDebug( ADSample_Info.AC_Vol_RMS ,ADSample_Info.Inv_Cur_RMS,System_Power_Info.Active_Power_Total,System_Power_Info.Apparent_Power_Total);//
-////    Function_TxSendDebug( ADSample_Info.AC_Vol_RMS ,ADSample_Info.Inv_Cur_RMS,System_Power_Info.Active_Power_Total,System_Power_Info.Apparent_Power_Total);//
-    
-//    Function_TxSendDebug( ADSample_Info.Inv_Cur_Peak ,PID_Curr_Loop.Out,State_Context.State_Identifier*1000,INV_PID_DCIM.out);//
-//    Function_TxSendDebug( ADSample_Info.AC_Vol_Peak ,ADSample_Info.Inv_Cur_Peak,State_Context.State_Identifier*1000,ADSample_Info.ref_AD_Fir);//
-//   Function_TxSendDebug( System_Power_Info.Active_Power_Total,StepMotor_Ctrl.fdb,StepMotor_Ctrl.ref,stepmotor_temp*100);//
-    
-//   Function_TxSendDebug( System_Power_Info.Active_Power_Total,System_Power_Info.Apparent_Power_Total,ADSample_Info.AC_Vol_RMS,(((uint32_t)ADSample_Info.AC_Vol_RMS * ADSample_Info.Load_Cur_RMS ) >> 2) >> 8);//
-   
-//      Function_TxSendDebug(  State_Context.State_Identifier*1000 ,StepMotor_Ctrl.fdb,StepMotor_Ctrl.ref,System_ProtectFlag_Info.all);//
-//     Function_TxSendDebug( StepMotor_Ctrl.err+stepmotor_speed_const*1000,StepMotor_Ctrl.fdb,StepMotor_Ctrl.ref,stepmotor_temp*100);//
-//     Function_TxSendDebug( StepMotor_Ctrl.err+stepmotor_speed_const*1000,PID_Vol_Loop.Fdb,ADSample_Info.Bus_Vol_Filiter_AD,INV_Info.AC_Vol_AMP_Target);//
-
-//     Function_TxSendDebug( ADSample_Info.Inv_Cur_Peak,ADSample_Info.AC_Vol_Peak,AD_Correct_I_Induc.ADRef_Correct_Value,ADSample_Info.Bus_Vol_Filiter_AD);//
-
 
 /**************************************************UART1-串口调试代码*********************************************************/
-#if 0
-/****************************uart1_printf/DEBUG_MODE/波特率9600/test_cnt >= 200***********************************/
-//     Print_SystemProtectFlags(); //系统保护位
-//		 Print_StartCheckFlags();// 系统启动检测
-//		 
-		 printf("State:%d\n",State_Context.State_Identifier);// 状态机编号
-		 printf("Speed:%d\n", s16_GeneratorSpeedAvg);//发电机平均转速
-		 printf("Bus_Vol_Filiter_AD:%d\n",ADSample_Info.Bus_Vol_Filiter_AD);//直流母线电压_滤波
-     printf("ref_AD:%d\n",ADSample_Info.ref_AD>>1);//基准电压ADC
-		 
-//		 printf("NTC温度采样ADC：%d\n",ADSample_Info.Temp_External_AD);		 // ADSample_Info.Temp_External_AD
-////     printf("PID_Vol_Loop.Ref:%d \n",PID_Vol_Loop.Ref);		
-////     printf("PID_Vol_Loop.Fdb:%d \n",PID_Vol_Loop.Fdb);	
-////     printf("PID_Curr_Loop.Ref:%d \n",PID_Curr_Loop.Ref);	
-////     printf("PID_Curr_Loop.Fdb:%d \n",PID_Curr_Loop.Fdb);	
-//		 
-     printf("InvVol_Store_One:%d\n",ADSample_Store_Info.InvVol_Store_One>>1); // 交流电压ADC ADSample_Store_Info.InvVol_Store_One
-     printf("InvCur_Store_One:%d\n",ADSample_Store_Info.InvCur_Store_One>>1);// 电感电流ADC ADSample_Store_Info.InvCur_Store_One
-     printf("AC_Vol_RMS:%.2f\n",(float)(ADSample_Info.AC_Vol_RMS/4.0)); // 交流电压有效值
-		 printf("Inv_Cur_RMS:%.2f\n",(float)(ADSample_Info.Inv_Cur_RMS/256.0));//交流电流有效值
-//		 printf("Load_Cur_RMS：%d\n",ADSample_Info.Load_Cur_RMS);//负载电流有效值
-#else
-       // 0xFFFF/系统保护位/系统启动检测/转速
-//     Function_TxSendDebug(0xFFFF,System_ProtectFlag_Info.all ,StartCheck_Flag_Info.all,s16_GeneratorSpeedAvg); 
-     
-//     Function_TxSendDebug(System_ProtectFlag_Info.all ,StartCheck_Flag_Info.all,PID_Vol_Loop.Ref,PID_Vol_Loop.Fdb); // 系统保护位/系统启动检测/输出电压给定/输出电压反馈  
-//		 Function_TxSendDebug(System_ProtectFlag_Info.all ,StartCheck_Flag_Info.all,ADSample_Info.Power_AuxVcc_AD,(int32_t)(s16_GeneratorSpeedAvg)); // 系统保护位+系统启动检测+辅助电源ad值+转速  
-//		 Function_TxSendDebug(System_ProtectFlag_Info.all ,StartCheck_Flag_Info.all,ADSample_Info.Power_AuxVcc_AD,ADSample_Info.AC_Vol_RMS); // 系统保护位+系统启动检测+辅助电源ad值+交流RMS  
-			
-		 // 20251018 开环(DEBUG_MODE)交流输出AD&RMS 排查
-		 //Function_TxSendDebug(System_ProtectFlag_Info.all ,StartCheck_Flag_Info.all,ADSample_Store_Info.InvVol_Store_One>>1,(ADSample_Info.AC_Vol_RMS/4.0)); // 系统保护位+系统启动检测+交流输出ad值+交流RMS  
-//     Function_TxSendDebug(ADSample_Store_Info.InvVol_Store_One>>1,(ADSample_Info.AC_Vol_RMS/4.0),ADSample_Store_Info.InvVol_Store_One>>1,(ADSample_Info.AC_Vol_RMS/4.0)); // 交流电压输出ad值+交流电压RMS+交流电压输出ad值+交流电压RMS  
-     Function_TxSendDebug(ADSample_Store_Info.InvVol_Store_One>>1,(ADSample_Info.AC_Vol_RMS/4.0),ADSample_Store_Info.InvCur_Store_One>>1,(ADSample_Info.Inv_Cur_RMS/256.0)); // 交流输出ad值+交流RMS+交流输出电流ad值+交流电流RMS  
 
-//		Function_TxSendDebug(State_Context.State_Identifier,(int32_t)(s16_GeneratorSpeedAvg), (int32_t)(ADSample_Info.Temp_External_AD),(int32_t)(ADSample_Info.ref_AD)); //  
-//		Function_TxSendDebug(State_Context.State_Identifier,(int32_t)(s16_GeneratorSpeedAvg), (int32_t)(PID_Vol_Loop.Ref),(int32_t)(PID_Vol_Loop.Fdb)); // PID_Vol_Loop.Ref, PID_Vol_Loop.Fdb  
-//		Function_TxSendDebug(State_Context.State_Identifier,(int32_t)(s16_GeneratorSpeedAvg), (int32_t)(PID_Curr_Loop.Ref),(int32_t)(PID_Curr_Loop.Fdb)); // PID_Curr_Loop.Ref, PID_Curr_Loop.Fdb  
-//		Function_TxSendDebug((int32_t)(PID_Vol_Loop.Ref),(int32_t)(PID_Vol_Loop.Fdb), (int32_t)(PID_Curr_Loop.Ref),(int32_t)(PID_Curr_Loop.Fdb)); // PID_Curr_Loop.Ref, PID_Curr_Loop.Fdb  20250829
 //    Function_TxSendDebug(0x1234,0x5678,0x9abc,0xdef0);// 测试
-#endif
-/***********************************************************************************************************/
+/*T01 交流输出：电压adc、电压RMS、电流ADC、电流RMS*/  
+//		 Function_TxSendDebug(ADSample_Store_Info.InvVol_Store_One, ADSample_Info.AC_Vol_RMS, ADSample_Store_Info.InvCur_Store_One, ADSample_Info.Inv_Cur_RMS);
+/*T02 系统保护：系统保护位、启动检查位、状态标识、辅助电源AD*/
+//		 Function_TxSendDebug(System_ProtectFlag_Info.all, StartCheck_Flag_Info.all, State_Context.State_Identifier, ADSample_Info.Power_AuxVcc_AD);
+/*T03 启动诊断：系统保护位、启动检查位、AD校准状态、发电机平均转速*/
+/*Debug_ADCorrectStatus说明：千位=交流电压零点 OK，百位=电感电流零点 OK，十位=Vref 校准 OK，个位=masterslavebit (判定 0=从机、1=主机、2=未判定)*/
+			int32_t Debug_ADCorrectStatus =
+					AD_Correct_V_ACOUT.Flag.bit.ADRef_Correct_Ok * 1000 +
+					AD_Correct_I_Induc.Flag.bit.ADRef_Correct_Ok * 100 +
+					AD_Correct_Vref.Flag.bit.ADRef_Correct_Ok * 10 +
+					paralogiccontrol.masterslavebit; 
+			Function_TxSendDebug(System_ProtectFlag_Info.all, StartCheck_Flag_Info.all, Debug_ADCorrectStatus, s16_GeneratorSpeedAvg);
 
-		 
-		 
+
+/***********************************************************************************************************/
 //    Function_TxSendDebug( System_Power_Info.Active_Power_Total,System_Power_Info.Apparent_Power_Total,System_ProtectFlag_Info.all,ADSample_Info.Bus_Vol_Filiter_AD);//
 //    Function_TxSendDebug( StepMotor_Ctrl.err+stepmotor_speed_const*1000, StepMotor_Ctrl.ref,stepmotor_temp*100,StepMotor_Ctrl.fdb);//
 
@@ -745,8 +592,8 @@ void User_Key_Deal(void)
         Key_SW_ECO.In = ECOMODE; // 获取IO口状态值
         Key_SW_ECO.Calc( &Key_SW_ECO );
 
-        if  ( Key_SW_ECO.Key_State == KEY_ON )  Controllogic.ecomodeidbit = Full_Speed_Mode;//Save_Energy_Mode;
-        else                                    Controllogic.ecomodeidbit = Save_Energy_Mode;//Full_Speed_Mode;
+			  if  ( Key_SW_ECO.Key_State == KEY_ON )  Controllogic.ecomodeidbit = Full_Speed_Mode;// 硬件上拉默认全速模式 20260105
+        else                                    Controllogic.ecomodeidbit = Save_Energy_Mode;// 节能模式
         
         //--------------------------------输出频率选择开关
         Key_SW_FreqChoice.In = FRESWITCH;// 获取IO口状态值
